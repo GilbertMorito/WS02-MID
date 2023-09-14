@@ -1,0 +1,143 @@
+html, body{
+	font-family: sans-serif;
+	margin: 0;
+	color: 	#0f380f;
+	background: rgb(255, 234, 212);
+	font-family: pokemon;
+}
+
+header{
+	padding: 40px;
+	max-width: 100%;
+	background: rgb(255, 234, 212);
+	display: flex;
+}
+.screen{
+	border: 50px solid rgb(115,108,107);
+	border-radius: 20px 20px 100px 20px;
+	padding: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: 30%;
+	background: #9bbc0f;
+	min-width: 300px;
+}
+h1{
+	font-size: 3vw;
+	color: 	#0f380f;
+}
+.flex{
+	display: flex;
+}
+header h3{
+	font-size: 20px;
+	padding: 20px;
+}
+.info{
+	padding-left: 20px;;
+}
+header .border{
+	height: auto;
+	width: fit-content;
+	display: block;
+	margin-left: auto;
+	margin-right: 0;
+}
+.info p{
+	position: relative;
+	font-size: 20px;
+}
+.flex img{
+	border-radius: 174px;
+	width: 30%;
+	border: 24px double #0f380f;
+}
+.content{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: center;
+}
+.border{
+	border: 10px double #0f380f;
+	border-radius: 20px;
+	width: auto;
+	height: auto;
+	background: #9bbc0f;
+	align-content: center;
+}
+.padding{
+	padding-left: 30px;
+}
+.center{
+	text-align: center;
+}
+.content ol{
+	text-align: left;
+}
+img.big-image{
+	width: 80%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	border-radius: 30px;
+	box-shadow: 2px 2px 10px rgb(34, 34, 34);
+}
+p.caption{
+	font-size: 16px;
+	color: lightgrey;
+	font-style: italic;
+	text-align: center;
+}
+.pokeball-section{
+	display: block;
+	margin: auto;
+ 	width: 70%;
+	list-style: none;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+.balls{
+	display: flex;
+}
+.outer{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.links{
+	display: block;
+}
+a{
+	color: rgb(3, 75, 74);
+	text-decoration: none;
+}
+.pokeball-section img{
+	width: 100px;
+	border-radius: 100px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+	padding: 40px 20px;
+	background-color: rgb(45,116,122);
+	background-image: linear-gradient(to top, rgba(255,255,255,0), rgba(21,118,157, 1) 100%);	
+}
+footer{
+	text-align: center;
+}
+footer ul li{
+	display: inline-block;
+	margin: 0 5px;
+}
+hr{
+	border-top: 10px solid rgb(222, 205, 187);
+}
+@font-face {
+	font-family: pokemon;
+	src: url(Pokemon.ttf);
+}
